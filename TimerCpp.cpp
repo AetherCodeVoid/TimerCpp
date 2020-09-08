@@ -179,13 +179,13 @@
                     }while(restart1);
                   }
 
-
+// Still Working on
 int main()  {
   bool restart = false;
      do {
-  std::cout << "Welcome to the Time Blocking App & Quick Alarm for Time Mannagement!" << std::endl;
-  std::cout << "For 24 Hour Time Blocking Enter 1" << std::endl;
-  std::cout << "For Quick Alarm Enter 2 " << std::endl;
+  std::cout << "Welcome! This is a simple Timer for Time Mannagement!" << std::endl;
+  std::cout << "For 24 Hour Timer Enter 1" << std::endl;
+  std::cout << "For Quick Timer Enter 2 " << std::endl;
   int ans;
   std::cin >> ans;
 

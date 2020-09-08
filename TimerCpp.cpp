@@ -183,14 +183,14 @@
 int main()  {
   bool restart = false;
      do {
-  std::cout << "Welcome! This is a simple Timer for Time Mannagement!" << std::endl;
-  std::cout << "For 24 Hour Timer Enter 1" << std::endl;
-  std::cout << "For Quick Timer Enter 2 " << std::endl;
+  std::cout << "Welcome! This is a simple Timer for time mannagement!" << std::endl;
+  std::cout << "For a 24 hour timer enter 1" << std::endl;
+  std::cout << "For a quick timer enter 2 " << std::endl;
   int ans;
   std::cin >> ans;
 
   if (ans == 1){
-
+    a();
   }
   else if (ans == 2){
     b();
